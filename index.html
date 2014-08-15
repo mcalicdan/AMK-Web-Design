@@ -28,12 +28,17 @@
     <div class="container">
      <p><img src="insert image here"/>
         <FIELDSET>
+
           <legend>Contact Us</legend>
-          <label>Name:</br>
-          <input type="text" name="Name"/></label><br />
+
+          <label for="name">Name:</br>
+          <input type="text" id="name" /></label><br />
+          <div id="feedback"></div>
+
           <label>Email:</br>
           <input type="text" name="Email"/></label><br />
-          <imput type="submit" value="Submit" />
+          <input type="submit" value="Submit" />
+          <div id="emailfeedback"></div>
         </FIELDSET>
       </p>
     <div class="container products" class= "two columns">
@@ -58,7 +63,8 @@
     </div>
 
 
-  <footer></footer>
+        <footer></footer>
 
+    <script src="script.js"></script>
     </body>
   </html>
