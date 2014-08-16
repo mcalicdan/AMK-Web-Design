@@ -12,8 +12,8 @@ var elname = document.getElementById("name");                   // Get name inpu
 elname.addEventListener("blur", checkname, false);
 
 function checkemail(){
-  var email = document.getElementByID("emailfeedback");
-  if (this.value.length < 2){
+  var email = document.getElementById("emailfeedback");
+  if (this.value.length < 2) {
     email.textContent = "You must submit a valid e-mail address";
   }
   else{
@@ -21,5 +21,5 @@ function checkemail(){
   }
 }
 
-var email = document.getElementByID("email");
-email.addEventListener("blur", checkemail, false);
+var elemail = document.getElementById("email");
+elemail.addEventListener("blur", checkemail, false);
