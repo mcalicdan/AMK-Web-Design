@@ -180,9 +180,10 @@ sub {
  */
 
 img {
-  border: 20px;
-  width: 300px;
-  padding-left: 100px;
+  border: 2em;
+  width: 10em;
+  padding-left: 2em;
+  float: right;
 
 
 }
@@ -377,9 +378,12 @@ input[type="search"]::-webkit-search-decoration {
  */
 
 fieldset {
-  border: 1px solid #c0c0c0;
-  margin: 0 2px;
-  padding: 0.35em 0.625em 0.75em;
+  border: 0.2em solid #c0c0c0;
+
+  margin: 0.5em;
+
+  text-align: center;
+  width: 20em;
 }
 
 /**
@@ -427,12 +431,15 @@ th {
 }
 
 p{
-  margin-top: 20px;
-  margin-bottom: 200px;
-  border-top: 20px;
-  border-bottom: 20px;
-  padding-top: 20px;
-  padding-bottom: 20px;
+  margin-top: 2em;
+  margin-bottom: 2em;
+  border-top: 2em;
+  border-bottom: 2em;
+  padding-bottom: 2em;
   font-size: 24px;
+  text-align: center;
+}
+h2{
+  padding-right: 6em;
   text-align: center;
 }
