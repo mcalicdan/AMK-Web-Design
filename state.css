@@ -1,9 +1,16 @@
+a:active,
+a:hover {
+  outline: 0;
+}
+
 a:hover {
   color: #FF0000;
 }
-input:focus {
-  background: #C0C0C0;
-}
+
 a:active {
   color: #FF00FF;
+}
+
+input:focus {
+  background: #C0C0C0;
 }
