@@ -105,5 +105,10 @@
       height: 0;
     }
 
+.border{
+    width: 1000px;
+    border: solid;
+    margin: auto;
+}
 
 
