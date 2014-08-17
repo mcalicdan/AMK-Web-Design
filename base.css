@@ -16,9 +16,7 @@ html {
  * Remove default margin.
  */
 
-body {
-  margin: 0;
-}
+
 
 /* HTML5 display definitions
    ========================================================================== */
@@ -120,11 +118,6 @@ dfn {
  * contexts in Firefox 4+, Safari, and Chrome.
  */
 
-h1 {
-  font-size: 2em;
-  margin: 0.67em 0;
-  text-align: center;
-}
 
 /**
  * Address styling not present in IE 8/9.
@@ -152,14 +145,7 @@ small {
  * Remove border when inside `a` element in IE 8/9/10.
  */
 
-img {
-  border: 2em;
-  width: 10em;
-  padding-left: 2em;
-  float: right;
 
-
-}
 
 /**
  * Correct overflow not hidden in IE 9/10/11.
@@ -346,17 +332,7 @@ input[type="search"]::-webkit-search-decoration {
   -webkit-appearance: none;
 }
 
-/**
- * Define consistent border, margin, and padding.
- */
 
-fieldset {
-  border: 0.2em solid #c0c0c0;
-  margin: auto;
-
-  text-align: center;
-  width: 20em;
-}
 
 /**
  * 1. Correct `color` not being inherited in IE 8/9/10/11.
@@ -389,25 +365,4 @@ optgroup {
    ========================================================================== */
 
 
-p{
-  margin-top: 2em;
-  margin-bottom: 2em;
-  padding-bottom: 4em;
-  font-size: 24px;
-  text-align: center;
-}
-h2{
-  padding-right: 0;
-  text-align: center;
-}
 
-.footer-pic{
-  width: 3em;
-  float: none;
-  padding: 0em;
-}
-footer p{
-  margin-right: auto;
-  margin-left: auto;
-
-}

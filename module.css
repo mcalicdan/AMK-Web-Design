@@ -1,8 +1,52 @@
-#emailfeedback{
-  padding-bottom: 10px;
+.border{
+    width: 1000px;
+    border: solid;
+    margin: auto;
 }
 
+fieldset {
+  border: 0.2em solid #c0c0c0;
+  margin: auto;
+  text-align: center;
+  width: 20em;
+}
 
+footer p{
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.footer-pic{
+  width: 3em;
+  float: none;
+  padding: 0em;
+}
+
+h1 {
+  font-size: 2em;
+  margin: 0.67em 0;
+  text-align: center;
+}
+
+h2{
+  padding-right: 0;
+  text-align: center;
+}
+
+img {
+  border: 2em;
+  width: 10em;
+  padding-left: 2em;
+  float: right;
+}
+
+p{
+  margin-top: 2em;
+  margin-bottom: 2em;
+  padding-bottom: 4em;
+  font-size: 24px;
+  text-align: center;
+}
 
 #toplogo{
   border-top: 2em;
