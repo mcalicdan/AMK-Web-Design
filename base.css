@@ -403,5 +403,11 @@ h2{
 
 .footer-pic{
   width: 3em;
+  float: none;
+  padding: 0em;
+}
+footer p{
+  margin-right: auto;
+  margin-left: auto;
 
 }
